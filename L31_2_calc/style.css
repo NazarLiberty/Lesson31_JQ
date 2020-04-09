@@ -1,0 +1,157 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.calculator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 520px;
+  width: 350px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.calculator * {
+  -webkit-transition: ease-in .1s all;
+  transition: ease-in .1s all;
+}
+
+.type {
+  width: 100%;
+  resize: none;
+  padding: 5%;
+  font-size: 35px;
+  border: #a2a2ff 3px solid;
+}
+
+.buttons {
+  color: white;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-weight: 900;
+}
+
+.buttons-result {
+  background-color: rgba(0, 0, 0, 0.295);
+  width: 100%;
+  font-size: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.buttons-result div:active {
+  -webkit-transform: scale(0.9, 0.9);
+          transform: scale(0.9, 0.9);
+}
+
+.buttons-result div:hover {
+  background-color: rgba(48, 48, 53, 0.541);
+}
+
+.buttons-result div {
+  padding: 7px;
+  text-align: center;
+  width: 50%;
+}
+
+.buttons-numbers {
+  padding-top: 2px;
+  -webkit-box-flex: 3;
+      -ms-flex-positive: 3;
+          flex-grow: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 340px;
+}
+
+.buttons-numbers div:active {
+  -webkit-transform: scale(0.9, 0.9);
+          transform: scale(0.9, 0.9);
+}
+
+.buttons-numbers div:hover {
+  background-color: #7a7aec;
+}
+
+.buttons-numbers div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 33%;
+  border: 1px white solid;
+  background-color: #a2a2ff;
+}
+
+.buttons-operators {
+  padding-top: 2px;
+  font-size: 40px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 340px;
+}
+
+.buttons-operators div:active {
+  -webkit-transform: scale(0.9, 0.9);
+          transform: scale(0.9, 0.9);
+}
+
+.buttons-operators div:hover {
+  background-color: #7a7aec;
+}
+
+.buttons-operators div {
+  background-color: #a2a2ff;
+  width: 100%;
+  height: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
